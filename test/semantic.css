@@ -69,3 +69,19 @@ section {
 h1 + section {
   background-color: moccasin;
 }
+
+ul {
+  gap: 30px;
+}
+.results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.link {
+  display: block;
+  margin-top: auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
